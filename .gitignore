@@ -1,0 +1,11 @@
+# Comment
+tempfile.txt
+*.zip
+*.gz
+log/*.log
+log/*log.[0-9]
+assets/photoshp/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# question: would log/archive/access.log be ignored? answer: NO it won't
